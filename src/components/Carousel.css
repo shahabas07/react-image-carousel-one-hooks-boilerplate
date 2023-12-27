@@ -1,1 +1,51 @@
 /* write down the css for Carousel in this file */
+h1 {
+  font-size: 50px;
+  background-color: rgba(56, 55, 55, 0.801);
+  border-radius: 10px;
+  padding: 4px;
+  color: rgb(216, 221, 226);
+}
+.photo {
+  background-position: center;
+  display: flex;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.start {
+  background-color: rgb(107, 107, 107);
+  place-items: center;
+  flex: 10%;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  color: rgb(0, 0, 0);
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+p {
+  background-color: rgba(141, 41, 41, 0.342);
+  font-size: 22px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+.box {
+  width: 40vw;
+  height: 80vh;
+}
+.text {
+  display: grid;
+  place-items: center;
+  height: 10%;
+}
+.last {
+  background-color: rgb(138, 91, 91);
+  width: 100px;
+  display: grid;
+  place-items: center;
+}
